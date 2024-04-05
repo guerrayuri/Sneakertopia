@@ -1,0 +1,16 @@
+h1 { text-decoration: underline;
+
+}
+
+p {
+    font-size: x-large; list-style-type: circle;
+    }
+
+ul.a{
+    list-style-type: circle; font-size: x-large;
+}
+
+
+.centraliza-texto{
+    text-align: center;
+}
