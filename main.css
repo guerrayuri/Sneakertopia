@@ -1,16 +1,25 @@
-h1 { text-decoration: underline;
-
-}
 
 p {
     font-size: x-large; list-style-type: circle;
     }
-
 ul.a{
     list-style-type: circle; font-size: x-large;
 }
-
-
 .centraliza-texto{
     text-align: center;
+}
+body {
+    background-color: #897F7F;
+}
+#nav-bar{
+    display: flex; 
+    align-items: center;
+     justify-content:space-between;
+
+}
+#icons{
+    display: flex; align-items: center;
+}
+#favorito{
+    justify-content: center;
 }
