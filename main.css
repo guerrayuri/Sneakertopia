@@ -1,25 +1,84 @@
-
-p {
-    font-size: x-large; list-style-type: circle;
-    }
-ul.a{
-    list-style-type: circle; font-size: x-large;
-}
-.centraliza-texto{
-    text-align: center;
-}
 body {
     background-color: #897F7F;
 }
-#nav-bar{
-    display: flex; 
-    align-items: center;
-     justify-content:space-between;
 
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+} 
+
+.texto h1 {
+    padding-top: 130px;
 }
-#icons{
-    display: flex; align-items: center;
+.icons {
+    display: flex;
+    align-items: center;
 }
-#favorito{
+
+.favorito {
     justify-content: center;
 }
+
+.flex-container-content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    color: aliceblue;
+}
+
+.texto {
+    width: 40%;
+}
+
+.centraliza-texto {
+    text-align: center;
+    font-size: 300%;
+}
+
+.tamanho-texto{
+    font-size: 275%;
+}
+
+.a {
+    
+    font-size: 250%;
+    text-align: justify ;
+}
+
+.imagens-tenis-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 130px;
+}
+
+.imagens-tenis {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.botão {
+    width: 220px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 180px;
+    background-color: darkgreen;
+    display: block;
+    margin: auto;
+}
+
+.editarBotao{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
